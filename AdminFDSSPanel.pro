@@ -11,6 +11,7 @@ CONFIG += c++11
 SOURCES += \
     call.cpp \
     company.cpp \
+    extracredit.cpp \
     main.cpp \
     member.cpp \
     memberresponded.cpp \
@@ -20,6 +21,7 @@ SOURCES += \
 HEADERS += \
     call.h \
     company.h \
+    extracredit.h \
     member.h \
     memberresponded.h \
     officerlogincreds.h \
