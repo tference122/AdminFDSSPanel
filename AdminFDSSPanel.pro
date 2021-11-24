@@ -9,10 +9,20 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    call.cpp \
+    company.cpp \
     main.cpp \
+    member.cpp \
+    memberresponded.cpp \
+    officerlogincreds.cpp \
     widget.cpp
 
 HEADERS += \
+    call.h \
+    company.h \
+    member.h \
+    memberresponded.h \
+    officerlogincreds.h \
     widget.h
 
 FORMS += \
